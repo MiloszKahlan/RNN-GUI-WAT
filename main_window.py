@@ -21,3 +21,7 @@ class MainWindow(QMainWindow):
         # Create the second tab for new functionality
         self.samplingTab = SamplingTab()
         self.tabs.addTab(self.samplingTab, "Sampling")
+
+        # Create the third tab for new functionality
+        self.conversionTab = ConversionTab()
+        self.tabs.addTab(self.samplingTab, "Sampling")

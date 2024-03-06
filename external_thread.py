@@ -1,7 +1,6 @@
 import subprocess
 from PyQt5.QtCore import pyqtSlot, QThread, pyqtSignal
 import os
-from PyQt5.QtCore import pyqtSlot, QThread, pyqtSignal
 
 # Define the path to the directory containing the Lua script
 script_directory = '/home/ubunciak/Downloads/torch-rnn-master'
